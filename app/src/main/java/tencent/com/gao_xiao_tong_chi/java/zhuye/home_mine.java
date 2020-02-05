@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.mine;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import tencent.com.gao_xiao_tong_chi.R;
-import tencent.com.gao_xiao_tong_chi.java.Activity.Managershopnull;
-import tencent.com.gao_xiao_tong_chi.java.Activity.Shezhi;
+import tencent.com.gao_xiao_tong_chi.java.mine.My_impression;
 import tencent.com.gao_xiao_tong_chi.java.mine.Cai_shoucang.mine_menu;
+import tencent.com.gao_xiao_tong_chi.java.mine.Shezhi;
 import tencent.com.gao_xiao_tong_chi.java.mine.impression_shoucang.mine_impression;
 
 public class home_mine extends Fragment implements View.OnClickListener {

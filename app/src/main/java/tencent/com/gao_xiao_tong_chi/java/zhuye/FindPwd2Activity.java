@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +18,7 @@ import org.json.JSONObject;
 import cz.msebera.android.httpclient.Header;
 import tencent.com.gao_xiao_tong_chi.R;
 import tencent.com.gao_xiao_tong_chi.java.houduan.HttpUrlData;
+import tencent.com.gao_xiao_tong_chi.java.mine.Login;
 
 public class FindPwd2Activity extends AppCompatActivity {
     private EditText new_pwd,find_pwd;

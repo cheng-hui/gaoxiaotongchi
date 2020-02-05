@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import tencent.com.gao_xiao_tong_chi.R;
-import tencent.com.gao_xiao_tong_chi.java.shop.Shop;
+import tencent.com.gao_xiao_tong_chi.java.Entity.caidan;
 
 public class caidanAdapter extends ArrayAdapter {
     private final int resourceId;

@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -20,6 +20,7 @@ import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 import com.jude.rollviewpager.hintview.ColorPointHintView;
 
 import tencent.com.gao_xiao_tong_chi.R;
+import tencent.com.gao_xiao_tong_chi.java.mine.Login;
 import tencent.com.gao_xiao_tong_chi.java.shop.jiebiantan;
 
 public class home_shouye extends Fragment implements View.OnClickListener,View.OnTouchListener,GestureDetector.OnGestureListener{

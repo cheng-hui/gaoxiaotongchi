@@ -1,13 +1,13 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.mine;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
 import tencent.com.gao_xiao_tong_chi.R;
+import tencent.com.gao_xiao_tong_chi.java.zhuye.MainActivity;
 
 public class Shezhi extends Activity {
     @Override
@@ -26,7 +26,7 @@ public class Shezhi extends Activity {
         exit_login.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Shezhi.this,MainActivity.class);
+                Intent intent = new Intent(Shezhi.this, MainActivity.class);
                 intent.putExtra(MainActivity.TAG_EXIT, true);
                 startActivity(intent);
             }
@@ -36,7 +36,7 @@ public class Shezhi extends Activity {
         about_app.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Shezhi.this.startActivity( new Intent( Shezhi.this,About_app.class ) );
+                Shezhi.this.startActivity( new Intent( Shezhi.this, About_app.class ) );
             }
         } );
         //修改信息
@@ -44,7 +44,7 @@ public class Shezhi extends Activity {
         modify_information.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Shezhi.this.startActivity( new Intent( Shezhi.this,Modify_information.class ) );
+                Shezhi.this.startActivity( new Intent( Shezhi.this, Modify_information.class ) );
             }
         } );
     }

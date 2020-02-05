@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import tencent.com.gao_xiao_tong_chi.R;
+import tencent.com.gao_xiao_tong_chi.java.yingxiang.yinxiang_pinglun;
 
 /**
  * Created by chenghui  2019/7/23.

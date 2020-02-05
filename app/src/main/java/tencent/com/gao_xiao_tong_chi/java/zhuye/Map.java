@@ -1,20 +1,13 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 
 import tencent.com.gao_xiao_tong_chi.R;
-import tencent.com.gao_xiao_tong_chi.java.shop.jiebiantan;
 
 public class Map extends Activity implements View.OnTouchListener, GestureDetector.OnGestureListener {
     private GestureDetector mGestureDetector;

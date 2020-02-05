@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.mine;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +21,8 @@ import cz.msebera.android.httpclient.Header;
 import tencent.com.gao_xiao_tong_chi.R;
 import tencent.com.gao_xiao_tong_chi.java.houduan.HttpUrlData;
 import tencent.com.gao_xiao_tong_chi.java.houduan.usertoken;
+import tencent.com.gao_xiao_tong_chi.java.zhuye.MainActivity;
+import tencent.com.gao_xiao_tong_chi.java.zhuye.Psw_search;
 
 public class Login extends AppCompatActivity {
     private EditText et_name;
@@ -45,7 +47,7 @@ public class Login extends AppCompatActivity {
         forget_password.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Login.this.startActivity( new Intent( Login.this,Psw_search.class ) );
+                Login.this.startActivity( new Intent( Login.this, Psw_search.class ) );
             }
         } );
         et_name = (EditText)findViewById(R.id.login_username);
@@ -87,7 +89,7 @@ public class Login extends AppCompatActivity {
                                     usertoken usertoken1=new usertoken();
                                     usertoken1.setUsertoken( usertoken_str );
                                     Log.i(TAG, "123333333"+usertoken_str);
-                                    Login.this.startActivity( new Intent( Login.this,MainActivity.class ) );
+                                    Login.this.startActivity( new Intent( Login.this, MainActivity.class ) );
                                 } else {
                                     Toast.makeText(getApplicationContext(), "您输入的用户名或密码错误!", Toast.LENGTH_LONG).show();
                                 }

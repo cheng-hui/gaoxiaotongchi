@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import tencent.com.gao_xiao_tong_chi.R;
+import tencent.com.gao_xiao_tong_chi.java.yingxiang.yinxiang_pinglun;
 
 public class home_yingxiang extends Fragment {
     @Override

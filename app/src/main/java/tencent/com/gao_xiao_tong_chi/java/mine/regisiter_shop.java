@@ -20,8 +20,7 @@ import org.json.JSONObject;
 
 import cz.msebera.android.httpclient.Header;
 import tencent.com.gao_xiao_tong_chi.R;
-import tencent.com.gao_xiao_tong_chi.java.Activity.Managershop;
-import tencent.com.gao_xiao_tong_chi.java.Activity.Modify_shop;
+import tencent.com.gao_xiao_tong_chi.java.zhuye.Managershop;
 import tencent.com.gao_xiao_tong_chi.java.houduan.usertoken;
 import tencent.com.gao_xiao_tong_chi.java.houduan.HttpUrlData;
 

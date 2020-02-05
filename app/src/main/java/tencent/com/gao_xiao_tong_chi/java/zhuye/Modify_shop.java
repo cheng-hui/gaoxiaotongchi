@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,8 +20,6 @@ import org.json.JSONObject;
 import cz.msebera.android.httpclient.Header;
 import tencent.com.gao_xiao_tong_chi.R;
 import tencent.com.gao_xiao_tong_chi.java.houduan.HttpUrlData;
-import tencent.com.gao_xiao_tong_chi.java.houduan.usertoken;
-import tencent.com.gao_xiao_tong_chi.java.mine.regisiter_shop;
 
 public class Modify_shop extends Activity {
     private String shop_name_true;

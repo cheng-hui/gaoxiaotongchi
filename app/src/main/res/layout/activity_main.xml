@@ -7,7 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tencent.com.gao_xiao_tong_chi.java.Activity.MainActivity">
+    tools:context="tencent.com.gao_xiao_tong_chi.java.zhuye.MainActivity">
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

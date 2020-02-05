@@ -26,6 +26,7 @@ import java.util.Map;
 
 import cz.msebera.android.httpclient.Header;
 import tencent.com.gao_xiao_tong_chi.R;
+import tencent.com.gao_xiao_tong_chi.java.Entity.caidan;
 import tencent.com.gao_xiao_tong_chi.java.houduan.HttpUrlData;
 
 import static java.sql.Types.NULL;

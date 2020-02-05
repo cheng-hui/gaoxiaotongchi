@@ -25,20 +25,27 @@
             android:layout_marginTop="10dp"
             android:textSize="40px"
             android:text="张亮麻辣烫" />
-
-        <TextView
-            android:id="@+id/shop_star"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@mipmap/onestaryellow" />
+<!--        默认显示一颗星 -->
+<RatingBar
+    android:id="@+id/shop_star"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:progressTint="#feebcb"
+    android:secondaryProgressTint="#feebcb"
+    android:progressBackgroundTint="#e6e6e6"
+    android:rating="1"
+    android:isIndicator="true"
+    android:max="5"
+    style="@style/Widget.AppCompat.RatingBar.Small"  >
+</RatingBar>
     </LinearLayout>
-
     <TextView
         android:id="@+id/shop_distance"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="35dp"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="2dp"
         android:layout_toRightOf="@+id/star_and_shopname"
         android:text="距离你1.3公里" />

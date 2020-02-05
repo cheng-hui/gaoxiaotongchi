@@ -13,7 +13,6 @@ import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 import com.jude.rollviewpager.hintview.ColorPointHintView;
 
 import tencent.com.gao_xiao_tong_chi.R;
-import tencent.com.gao_xiao_tong_chi.java.Activity.home_shouye;
 
 public class caidan_xiangqing extends Activity {
     private RollPagerView mRollViewPager;/*轮播图 - 滚动条*/

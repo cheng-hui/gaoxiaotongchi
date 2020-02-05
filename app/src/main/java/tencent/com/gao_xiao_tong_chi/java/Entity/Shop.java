@@ -1,13 +1,13 @@
-package tencent.com.gao_xiao_tong_chi.java.shop;
+package tencent.com.gao_xiao_tong_chi.java.Entity;
 
 public class Shop {
     private  String name;
     private String headId;
-    private int starId;
+    private double starId;
     private String distance;
    // private  int shop_id;
 
-    public Shop(String name, String headId, int starId,String distance) {
+    public Shop(String name, String headId, double starId,String distance) {
         //this.shop_id=shop_id;
         this.name = name;
         this.headId = headId;
@@ -18,6 +18,22 @@ public class Shop {
 //        return shop_id;
 //    }
 
+    public void setDistance(String distance) {
+        this.distance = distance;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHeadId(String headId) {
+        this.headId = headId;
+    }
+
+    public void setStarId(double starId) {
+        this.starId = starId;
+    }
+
     public String getName() {
         return name;
     }
@@ -26,7 +42,7 @@ public class Shop {
         return headId;
     }
 
-    public int getStarId() {
+    public double getStarId() {
         return starId;
     }
 

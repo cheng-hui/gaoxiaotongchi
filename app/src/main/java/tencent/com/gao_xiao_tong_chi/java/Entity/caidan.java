@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.shop_caidan;
+package tencent.com.gao_xiao_tong_chi.java.Entity;
 
 public class caidan {
     //menu_id,menu_name,menu_picture,menu_price

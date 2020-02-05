@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.yingxiang;
 
 import android.app.Activity;
 import android.os.Bundle;

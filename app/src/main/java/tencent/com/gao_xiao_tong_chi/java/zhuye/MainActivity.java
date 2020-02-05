@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -16,15 +16,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import tencent.com.gao_xiao_tong_chi.R;
-import tencent.com.gao_xiao_tong_chi.java.mine.home_mine;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationBar.OnTabSelectedListener {
     private BottomNavigationBar mBottomNavigationBar;
     private home_shouye home_shouye;
     private home_yingxiang home_yingxiang;
-    private tencent.com.gao_xiao_tong_chi.java.mine.home_mine home_mine;
+    private tencent.com.gao_xiao_tong_chi.java.zhuye.home_mine home_mine;
     private List<Fragment> list;
-   private int id;
+    private int id;
     public static final String TAG_EXIT = "exit";
     @Override
     protected void onNewIntent( Intent intent) {

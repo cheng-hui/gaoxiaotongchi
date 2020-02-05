@@ -1,4 +1,4 @@
-package tencent.com.gao_xiao_tong_chi.java.Activity;
+package tencent.com.gao_xiao_tong_chi.java.zhuye;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,8 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 import tencent.com.gao_xiao_tong_chi.R;
+import tencent.com.gao_xiao_tong_chi.java.mine.Login;
 
-    public class Psw_search2 extends Activity {
+public class Psw_search2 extends Activity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate( savedInstanceState );

@@ -1,18 +1,19 @@
-package tencent.com.gao_xiao_tong_chi.java.shop;
+package tencent.com.gao_xiao_tong_chi.java.Adapter;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import java.util.List;
 
 import tencent.com.gao_xiao_tong_chi.R;
-
+import tencent.com.gao_xiao_tong_chi.java.Entity.Shop;
+//店铺适应器
 public class shopAdapter extends ArrayAdapter {
     private final int resourceId;
     public shopAdapter(Context context, int textViewResourceId, List<Shop> objects) {
@@ -26,12 +27,12 @@ public class shopAdapter extends ArrayAdapter {
         View view = LayoutInflater.from(getContext()).inflate(resourceId, null);//实例化一个对象
         //String name, int headId, int starId,String distance)
         ImageView headImage = (ImageView) view.findViewById( R.id.shop_head);//获取该布局内的图片视图
-        TextView shop_star= (TextView) view.findViewById( R.id.shop_star);//获取该布局内的图片视图
+        RatingBar shop_star= (RatingBar) view.findViewById( R.id.shop_star);//获取该布局内的图片视图
         TextView shopName = (TextView) view.findViewById(R.id.shop_name);//获取该布局内的文本视图
         TextView shop_distance = (TextView) view.findViewById(R.id.shop_distance);//获取该布局内的文本视图
-
         headImage.setImageResource(Integer.parseInt(shop.getheadId()));//为图片视图设置图片资源
-        shop_star.setText(String.valueOf(  shop.getStarId()));//评分
+//        shop_star.setText(String.valueOf(  shop.getStarId()));//评分
+        shop_star.setRating(1);
         shopName.setText(shop.getName());//为文本视图设置文本内容
         shop_distance.setText(shop.getDistance());//为文本视图设置文本内容
         return view;

@@ -16,37 +16,37 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".java.Activity.MainActivity">
+        <activity android:name=".java.zhuye.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".java.Activity.Register_one"></activity>
-        <activity android:name=".java.Activity.Register_two"></activity>
+        <activity android:name=".java.mine.Register_one"></activity>
+        <activity android:name=".java.mine.Register_two"></activity>
         <activity android:name=".java.shop.jiebiantan"></activity>
         <activity android:name=".java.shop_caidan.shop_detail"></activity>
         <activity android:name=".java.shop_caidan.caidan_xiangqing"></activity>
-        <activity android:name=".java.Activity.Login"></activity>
-        <activity android:name=".java.Activity.Map"></activity>
-        <activity android:name=".java.Activity.Managershopnull"></activity>
+        <activity android:name=".java.mine.Login"></activity>
+        <activity android:name=".java.zhuye.Map"></activity>
+        <activity android:name=".java.zhuye.Managershopnull"></activity>
         <activity android:name=".java.mine.regisiter_shop"></activity>
-        <activity android:name=".java.Activity.Managershop"></activity>
-        <activity android:name=".java.Activity.Modify_shop"></activity>
-        <activity android:name=".java.Activity.Add_menu"></activity>
-        <activity android:name=".java.Activity.Shezhi"></activity>
-        <activity android:name=".java.Activity.About_app"></activity>
-        <activity android:name=".java.Activity.Modify_information"></activity>
+        <activity android:name=".java.zhuye.Managershop"></activity>
+        <activity android:name=".java.zhuye.Modify_shop"></activity>
+        <activity android:name=".java.zhuye.Add_menu"></activity>
+        <activity android:name=".java.mine.Shezhi"></activity>
+        <activity android:name=".java.mine.About_app"></activity>
+        <activity android:name=".java.mine.Modify_information"></activity>
         <activity android:name=".java.mine.Cai_shoucang.mine_menu"></activity>
         <activity android:name=".java.mine.impression_shoucang.mine_impression"></activity>
-        <activity android:name=".java.Activity.Search"></activity>
-        <activity android:name=".java.Activity.Psw_search"></activity>
-        <activity android:name=".java.Activity.Psw_search2"></activity>
-        <activity android:name=".java.Activity.yinxiang_pinglun"></activity>
-        <activity android:name=".java.Activity.add"></activity>
-        <activity android:name=".java.Activity.FindPwdActivity"></activity>
-        <activity android:name=".java.Activity.FindPwd2Activity"></activity>
+        <activity android:name=".java.zhuye.Search"></activity>
+        <activity android:name=".java.zhuye.Psw_search"></activity>
+        <activity android:name=".java.zhuye.Psw_search2"></activity>
+        <activity android:name=".java.yingxiang.yinxiang_pinglun"></activity>
+        <activity android:name=".java.zhuye.add"></activity>
+        <activity android:name=".java.zhuye.FindPwdActivity"></activity>
+        <activity android:name=".java.zhuye.FindPwd2Activity"></activity>
         <activity android:name=".java.mine.My_impression"></activity>
 
 
