@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/Lin_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/head"
+                    android:textColorHint="#a2a2a2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="高校通吃官方"
+                        android:textColor="#383838"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="03-24   08:50" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="【香气美食推荐】【京酱肉丝】 老北京风味菜，甜咸适中，酱香浓郁，风味独特，美食get！  #高校通吃官方推荐#"
+                android:textColor="#2b2b2b"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yinxiang" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/wde"
+            android:layout_below="@+id/Lin_one"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/black"/>
+
+        <LinearLayout
+            android:id="@+id/Lin_two"
+            android:layout_below="@+id/wde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/zhuanfa"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/zhuanfa"/>
+            <ImageView
+                android:id="@+id/pinglun"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/pinglun"/>
+            <ImageView
+                android:id="@+id/shoucang"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/huisexing"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_below="@+id/Lin_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ping"/>
+    </RelativeLayout>
+</LinearLayout>

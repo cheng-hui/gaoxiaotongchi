@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ImageView
+        android:id="@+id/cai_tu"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/yaobo" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/caidan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:text="武汉鸭脖"
+        />
+
+        <TextView
+            android:id="@+id/xiangqing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/caidan_name"
+            android:layout_marginLeft="60dp"
+            android:text="详情" />
+        <ImageView
+            android:id="@+id/star_1"
+            android:layout_below="@+id/xiangqing"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/xiangqing"
+            android:src="@mipmap/onestaryellow"
+            />
+        <LinearLayout
+            android:layout_below="@+id/caidan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/qian"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/qian"/>
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      单价"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

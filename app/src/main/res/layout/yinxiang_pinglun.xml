@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/color_lianghuang">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:gravity="center"
+            android:text="印  象"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/yinxiang_boder"
+            android:orientation="vertical">
+            
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_margin="10dp"
+                android:hint="请输入:"
+                android:textSize="19dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/yinxiang_button2"
+                android:text="评论"
+                android:textSize="16dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="160dp"
+                android:textColor="#ffffff"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/yinxiang_button"
+                    android:text="发表"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="160dp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

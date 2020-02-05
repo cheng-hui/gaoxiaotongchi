@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:background="#FFCC00">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/touxiang1"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp"
+        android:src="@mipmap/touxiang1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/touxiang1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="昵称"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="29dp"
+            android:layout_toLeftOf="@id/touxiang1"
+            android:text="标签1"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="69dp"
+            android:layout_toLeftOf="@id/touxiang1"
+            android:text="标签2"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label2"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="28dp"
+            android:layout_toLeftOf="@id/touxiang1"
+            android:text="标签3"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="29dp"
+            android:layout_toRightOf="@id/touxiang1"
+            android:text="标签4"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label1"
+            android:layout_marginLeft="71dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="75dp"
+            android:layout_toRightOf="@id/touxiang1"
+            android:text="标签5"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="29dp"
+            android:layout_toRightOf="@id/touxiang1"
+            android:text="标签6"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="90dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mine_shoucang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                android:layout_gravity="center_vertical"
+                android:textSize="10pt" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/mine_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="             菜单收藏"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            />
+        <TextView
+            android:id="@+id/mine_impression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="             印象收藏"
+            android:layout_marginTop="12dp"
+            android:textSize="10pt"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:id="@+id/my_impression"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mine_fengxiang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的印象"
+                android:layout_gravity="center_vertical"
+                android:textSize="10pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:id="@+id/Manager_shop"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@mipmap/mine_dianpuguanli" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="管理店铺"
+                android:textSize="10pt"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:id="@+id/shezhibutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/mine_shezhi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置"
+                android:layout_gravity="center_vertical"
+                android:textSize="10pt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+    </com.ashokvarma.bottomnavigation.BottomNavigationBar>
+</LinearLayout>

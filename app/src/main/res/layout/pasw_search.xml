@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/in_bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="密码查询"
+        android:layout_gravity="center"
+        android:textColorHint="#000000"
+        android:textSize="35dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="账号"
+        android:textColorHint="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pasw_boder"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="密保问题"
+        android:textColorHint="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/find_question"
+        android:gravity="center_vertical"
+        android:text="我今年多大了？"
+        android:textSize="17dp"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/pasw_boder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="密保答案"
+        android:textColorHint="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/find_answer"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pasw_boder"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/find_next"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:background="@drawable/botten_bg"
+        android:text="查询"
+        android:textSize="25dp"
+
+        />
+
+</LinearLayout>

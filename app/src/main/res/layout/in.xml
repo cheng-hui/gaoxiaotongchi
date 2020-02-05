@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/in_bg">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/editext_boder"
+        android:textColorHint="#a2a2a2"
+        android:hint="请输入账号" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/editext_boder"
+        android:hint="请输入密码"
+        android:textColorHint="#a2a2a2" />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:textColorHint="#bc0505"
+        android:hint="忘记密码"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/botten_bg"
+        android:hint="登录"
+        android:textColorHint="#f9f9f9" />
+
+    <Button
+        android:id="@+id/registerfinal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textColorHint="#f9f9f9"
+        android:background="@drawable/botten_bg"
+        android:hint="注册"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="登录即代表阅读并同意服务条款"/>
+
+
+</LinearLayout>

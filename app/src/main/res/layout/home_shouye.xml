@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/holeL"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/background1">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/shouyeL1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/shouye_head"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/touxiang"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <Spinner
+            android:id="@+id/schoolchose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shouye_head"
+            android:entries="@array/school"></Spinner>
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@+id/schoolchose"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="0dp"
+            android:background="@mipmap/search1" />
+        <!--轮播图-->
+        <!-- <ImageView
+             android:src="@drawable/static_home_affiche"
+             android:layout_width="match_parent"
+             android:layout_height="87dp" />-->
+        <!--轮播图-->
+        <com.jude.rollviewpager.RollPagerView
+            android:id="@+id/shouye_rollPagerView"
+            android:layout_below="@+id/schoolchose"
+            app:rollviewpager_hint_gravity="center"
+            app:rollviewpager_hint_alpha="0"
+            app:rollviewpager_hint_paddingBottom="5dp"
+            app:rollviewpager_hint_paddingRight="16dp"
+            app:rollviewpager_play_delay="3000"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" /><!--指示器下边距--> <!--rollviewpager_play_delay轮播时延-->
+       <RelativeLayout
+           android:id="@+id/zuohua_layout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/schoolchose">
+        <ImageButton
+            android:id="@+id/zuohua1"
+            android:layout_width="94dp"
+            android:layout_height="82dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="142dp"
+            android:background="@mipmap/zuohua"
+            android:paddingHorizontal="17dp"
+            android:paddingVertical="30dp" />
+       </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/Lin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingTop="250dp"
+            android:paddingEnd="40dp">
+
+            <ImageButton
+                android:id="@+id/jiebiantan"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:background="@mipmap/jiebiantan" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/shaokao"
+                android:layout_width="88dp"
+                android:layout_height="80dp"
+                android:background="@mipmap/shaokao"
+                android:paddingTop="1dp"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/baozizhoupu"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:background="@mipmap/baozi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shouye_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Lin1"
+            android:layout_alignStart="@+id/Lin1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingTop="350dp"
+            android:paddingEnd="40dp">
+
+            <ImageButton
+                android:id="@+id/huoguo"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:background="@mipmap/huoguo" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/yingpinggaodian"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:background="@mipmap/drink" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/kuaican"
+                android:layout_width="96dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/shouye_two"
+                android:background="@mipmap/kuaican" />
+        </LinearLayout>
+    </RelativeLayout>
+            <ImageButton
+                android:id="@+id/guanggao"
+                android:background="@mipmap/guanggao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@mipmap/home_tuijian1" />
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

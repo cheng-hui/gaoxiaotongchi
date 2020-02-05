@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/color_lianghuang">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fanhui"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="修改店铺信息"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/head"
+            android:textColorHint="#a2a2a2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="修改头像"
+            android:textColor="#383838"
+            android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="店铺名称："
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/login_username"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/list_boder"
+                android:textColorHint="#a2a2a2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="具体位置："
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/list_boder"
+                android:textColorHint="#a2a2a2"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="联系方式："
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/list_boder"
+                android:textColorHint="#c0c0c0"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传身份证（正反两面）："
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 身份证尚未过期,不需上传"
+            android:textColor="#fbd389"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/list_boder2">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/jia"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/list_boder2">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/jia"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/color_lianghuang"
+        android:hint="保存并返回"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+
+
+

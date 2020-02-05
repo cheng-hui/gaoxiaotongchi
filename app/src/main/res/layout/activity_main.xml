@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:launchMode="singleTask"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tencent.com.gao_xiao_tong_chi.java.Activity.MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fl_container">
+    </FrameLayout>
+
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottom_bar"
+        android:layout_height="wrap_content">
+    </com.ashokvarma.bottomnavigation.BottomNavigationBar>
+</LinearLayout>

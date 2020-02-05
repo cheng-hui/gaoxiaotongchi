@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/return_mine4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_marginTop="7dp"
+            android:textSize="75px"
+            android:textColor="#fff"/>
+        <Button
+            android:id="@+id/save_information"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="保存"
+            android:textSize="60px"
+            android:background="#ff0101"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/touxiang1"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp"
+        android:src="@mipmap/touxiang1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:textSize="70px"
+        android:textColor="#000"
+        android:text="修改头像"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="220dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_bt_login_normal"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <TextView
+            android:text="123456789"
+            android:id="@+id/shop_name"
+            android:textSize="70px"
+            android:layout_width="220dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="220dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_bt_login_normal"
+            android:selectAllOnFocus="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <Spinner
+            android:id="@+id/schoolchose_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_image"
+            android:entries="@array/school"></Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标签："
+        android:textSize="70px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="70dp"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:orientation="horizontal"
+           android:paddingTop="20dp">
+
+           <Button
+               android:id="@+id/lab_xila"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/bg_edittext_normal"
+               android:text="喜辣"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_xitian"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:text="喜甜"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_xisuan"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:text="喜酸"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+           />
+       </LinearLayout>
+       <LinearLayout
+           android:paddingTop="20dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:id="@+id/lab_zhongkouwei"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:text="重口味"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_qingdan"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:text="清淡"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_shizhong"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:text="适中"
+               android:textSize="8pt" />
+           />
+       </LinearLayout>
+       <LinearLayout
+           android:paddingTop="20dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/lab_buyaocong"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:text="不要葱"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_buyaojiang"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:text="不要姜"
+               android:textSize="8pt" />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_buyaosuan"
+               android:layout_width="70dp"
+               android:layout_height="28dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:text="不要蒜"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+       </LinearLayout>
+       <LinearLayout
+           android:paddingTop="20dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/lab_buyaocuo"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:text="不要醋"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:textSize="8pt" />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_buyaola"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:text="不要辣"
+               android:textSize="8pt" />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/lab_bujikou"
+               android:layout_width="70dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_login_selector"
+               android:textColor="@drawable/selector_btn_click_text_color"
+               android:text="不忌口"
+               android:textSize="8pt" />
+       </LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

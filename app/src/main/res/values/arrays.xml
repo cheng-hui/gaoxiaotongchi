@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="school">school
+        <item>"贵州大学"</item>
+        <item>"北京大学"</item>...................................................
+        <item>"清华大学"</item>
+        <item>"重庆大学"</item>
+        <item>"中国人民大学"</item>
+        <item>"河北大学"</item>
+        <item>"燕山大学"</item>
+        <item>"中国矿业大学"</item>
+        <item>"东北大学"</item>
+        <item>"中国农业大学"</item>
+        <item>"唐山学院"</item>
+        <item>"贵州财经大学"</item>
+        <item>"贵州师范大学"</item>
+        <item>"同济大学"</item>
+        <item>"复旦大学"</item>
+        <item>"浙江大学"</item>
+    </string-array>
+    <string-array name="SecurityQuestion">SecurityQuestion
+        <item>"高中老师叫什么名字？"</item>
+        <item>"经常读的一本书名？"</item>...................................................
+        <item>"父母的生日是多少？"</item>
+        <item>"你的研究方向是什么？"</item>
+    </string-array>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+</resources>

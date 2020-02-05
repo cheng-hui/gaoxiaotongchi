@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#f8c348"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="街边摊"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="顺序"
+          android:paddingTop="10dp"
+          android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="按评分"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"/>
+</LinearLayout>
+    <ListView
+        android:id="@+id/shop_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

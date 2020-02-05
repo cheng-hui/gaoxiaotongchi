@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f8bf3c"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/return_managershop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/fanhui_white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改店铺信息"
+            android:layout_marginLeft="45dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="9dp"
+            android:textSize="80px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/shop_picture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/head_null"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改头像"
+            android:layout_marginTop="32dp"
+            android:textSize="70px"
+            android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商铺名称:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+        <EditText
+            android:id="@+id/shop_name"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:selectAllOnFocus="true"
+            android:background="@drawable/shape_bt_login_normal"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="具体位置:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/shop_address"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_bt_login_normal"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系方式:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+        <EditText
+            android:id="@+id/shop_number"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_bt_login_normal"
+            android:selectAllOnFocus="true"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     上传身份证：（正反两面）"
+        android:textSize="70px"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+       android:text="               身份证暂未过期，无需上传"
+        android:textColor="#f8bf3c"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/shop_card_picture1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/idcard1"
+            android:layout_marginLeft="44dp"
+            />
+        <ImageView
+            android:id="@+id/shop_card_picture2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/idcard2"
+            android:layout_marginLeft="8dp"
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="       请认真填写以上的内容，若因信息填写不完全造成的损失"
+        android:textColor="#ff0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       本软件概不负责"
+        android:layout_marginTop="1dp"
+        android:textColor="#ff0000"/>
+    <Button
+        android:id="@+id/modify_finish"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="55dp"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:textSize="10pt"
+        android:layout_marginTop="16dp"
+        android:text="保 存 并 返 回"
+        android:background="@drawable/buttonstyle1"
+        android:textColor="#fff"/>
+</LinearLayout>

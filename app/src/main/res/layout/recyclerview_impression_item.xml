@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/dp_70"
+    android:padding="@dimen/dp_10">
+<ImageView
+    android:id="@+id/impression_image"
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="9dp"
+    android:background="@mipmap/caiping1"/>
+    <TextView
+        android:id="@+id/impression_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:textSize="70px"
+        tools:text="烤鸡腿"/>
+
+</LinearLayout>

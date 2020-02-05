@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f8bf3c"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/return_shop_manager"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/fanhui_white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加菜单"
+            android:layout_marginLeft="55dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="9dp"
+            android:textSize="80px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美食名称:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/shop_address"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/input"
+            android:selectAllOnFocus="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    配料"
+            android:textSize="70px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" (食客可根据配料表，准确告知商家忌口的东西)"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@drawable/input"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="30dp"
+        android:selectAllOnFocus="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="价格:"
+            android:layout_marginLeft="30dp"
+            android:textSize="70px" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/input"
+            android:selectAllOnFocus="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:text=" 元"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="70px"
+        android:layout_marginTop="19dp"
+        android:text="上传美食"/>
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="30dp"
+        android:background="@mipmap/idcard1"/>
+    <Button
+        android:id="@+id/addmenu_finish"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="55dp"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:textSize="10pt"
+        android:layout_marginTop="16dp"
+        android:text="完  成  添  加"
+        android:background="@drawable/buttonstyle1"
+        android:textColor="#fff"/>
+</LinearLayout>

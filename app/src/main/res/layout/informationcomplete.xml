@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:id="@+id/textzhuce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="注   册"
+        android:textColor="#000000"
+        android:textSize="18pt" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/informationcomplete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="信息完善"
+            android:textColor="#000000"
+            android:textSize="10pt" android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="(请选择适合您的标签)"
+            android:textColor="#000000"
+            android:textSize="7pt"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/label_xila"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:text="喜辣"
+            android:background="@drawable/bg_edittext_normal"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_xitian"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="喜甜"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_xisuan"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="喜酸"
+            android:textSize="8pt" />
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/label_zhongkouwei"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:text="重口味"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_qingdan"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="清淡"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_shizhong"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="适中"
+            android:textSize="8pt" />
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/label_buyaocong"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:text="不要葱"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_buyaojiang"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="不要姜"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_buyaosuan"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="不要蒜"
+            android:textSize="8pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/label_buyaocuo"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:text="不要醋"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_buyaola"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="不要辣"
+            android:textSize="8pt" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/label_bujikou"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_selector"
+            android:textColor="@drawable/selector_btn_click_text_color"
+            android:text="不忌口"
+            android:textSize="8pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:paddingRight="220dp"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密保问题"
+            android:textColor="#000000"
+            android:textSize="7pt" />
+        <Spinner
+            android:id="@+id/user_question"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/shape_bt_login_normal"
+            android:entries="@array/SecurityQuestion">
+        </Spinner>
+        <TextView
+            android:paddingEnd="220dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"
+            android:textColor="#000000"
+            android:text="密保答案"/>
+        <EditText
+            android:id="@+id/user_answer"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/shape_bt_login_normal"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="8dp" />
+        <Button
+            android:id="@+id/register_finish"
+            android:gravity="center_horizontal"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:textSize="10pt"
+            android:text="完  成  注  册"
+            android:background="@drawable/buttonstyle1"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>
